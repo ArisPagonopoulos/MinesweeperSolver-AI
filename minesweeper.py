@@ -119,7 +119,7 @@ def update_contours(img):
                             
         print(board)
 
-#now let's use the code that i implemented in the cs50ai course
+#now let's create the ai agent
 
 class Sentence():
         """
