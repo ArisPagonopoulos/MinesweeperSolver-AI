@@ -14,6 +14,3 @@ Using the contours i can deduce which blocks are open.
 After that, i compare each block's image with the images of 1,2 etc and save their values in the board array.
 Finally, the ai agent that i have created can tell which block is safe to click next and after some time wins the game.
 
-# Room for improvement:
-<p>The program is designed to run on my computer. The pixel coordinates for the screenshot were put manually, but from the boards contour we could get it's pixels coordinates so it can run on pc's with different resolutions than mine.</p>
-
