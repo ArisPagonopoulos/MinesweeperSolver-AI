@@ -6,7 +6,7 @@ A python program that solves a minesweeper game. Made using opencv, autogui and 
 I get information about the game by taking a screenshots dynamically. Then, i draw contours in the image and recognize the blocks and their respective pixel position from their contours.
 <p align = "center"><i>The board at the start looks like this.</i></p>
 <p align = "center"> <img src = "https://github.com/ArisPagonopoulos/MinesweeperSolver-AI/blob/main/start_contours.png"> </p>
-I save their pixel coordinates in a array so i can tell the mouse to click on them using the pyautogui library.
+I save their pixel coordinates in a 16x16 array so i can tell the mouse to click on them using the pyautogui library.
 So, for example when -after some clicks- the board is at this state
 <p align = "center"> <img src = "https://github.com/ArisPagonopoulos/MinesweeperSolver-AI/blob/main/game.jpg"> </p>
 Using the contours i can deduce which blocks are open. 
