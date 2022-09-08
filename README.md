@@ -12,5 +12,8 @@ So, for example when -after some clicks- the board is at this state
 Using the contours i can deduce which blocks are open. 
 <p align = "center"> <img src = "https://github.com/ArisPagonopoulos/MinesweeperSolver-AI/blob/main/Readme/contours.png"> </p>
 After that, i compare each block's image with the images of 1,2 etc and save their values in the board array.
+
+<p align = "center"> <i> The space symbol (" ") represents a closed block, the * symbol represents a mine that the ai agent has found.</i>
+<p align = "center"> <img src = "https://github.com/ArisPagonopoulos/MinesweeperSolver-AI/blob/main/Readme/game-board.jpg"></p>
 Finally, the ai agent that i have created can tell which block is safe to click next and after some time wins the game.
 
