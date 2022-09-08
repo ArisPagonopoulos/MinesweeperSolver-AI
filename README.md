@@ -3,7 +3,7 @@ A python program that solves a minesweeper game. Made using opencv, autogui and 
 <p align = "center"><img src = "https://github.com/ArisPagonopoulos/MinesweeperSolver-AI/blob/main/Readme/minesweeper_demo.gif"> </p>
 
 # Explanation:
-I get information about the game by taking a screenshots dynamically. Then, i draw contours in the image and recognize the blocks and their respective pixel position from their contours.
+I get information about the game by taking screenshots dynamically. Then, i draw contours in the image and recognize the blocks and their respective pixel position from their contours.
 <p align = "center"><i>The board at the start looks like this.</i></p>
 <p align = "center"> <img src = "https://github.com/ArisPagonopoulos/MinesweeperSolver-AI/blob//main/Readme/start_contours.png"> </p>
 I save their pixel coordinates in a 16x16 array so i can tell the mouse to click on them using the pyautogui library.
